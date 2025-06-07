@@ -1,1 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --text-color: #333;
+  --border-color: #333;
+
+  --OpenSans-font: "Open Sans", sans-serif;
+  --EduSAHand-font: "Edu SA Hand", cursive;
+
+  --transition-regular: all 0.3s ease-in-out;
+  --transition-fast: all 0.2s ease-in-out;
+  --transition-slow: all 0.5s ease-in-out;
+}
+
+body {
+  background-color: #111;
+  color: var(--white-color);
+}
+
+.head-title h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--EduSAHand-font);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.wrapper-box {
+  width: 700px;
+}
+
+/* Custom border styles that work with Bootstrap */
+.border-light {
+  border-color: var(--border-color) !important;
+}
+
+.border-end {
+  border-right-color: var(--border-color) !important;
+}

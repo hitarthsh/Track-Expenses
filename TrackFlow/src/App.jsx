@@ -1,13 +1,15 @@
-
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Index from "./components/Index";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
+      <Index />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
